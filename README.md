@@ -120,8 +120,9 @@ which has a new feature that Luwak needs, but is not yet upstream
 
 ```bash
 git clone https://github.com/flaxsearch/lucene-solr-intervals.git
-cd lucene-solr-internals
+cd lucene-solr-intervals
 git checkout positions-5x
+cd maven-build
 mvn -DskipTests install
 ```
 
